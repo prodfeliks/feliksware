@@ -1,0 +1,363 @@
+Version 0.225
+made by feliks#1000
+
+-- Instances:
+
+local main = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
+local Label1 = Instance.new("TextLabel")
+local Walkspeed = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local JumpPower = Instance.new("TextBox")
+local UIGradient_2 = Instance.new("UIGradient")
+local UICorner_3 = Instance.new("UICorner")
+local Label2 = Instance.new("TextLabel")
+local AB = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local credit = Instance.new("TextLabel")
+local ABHotkey = Instance.new("TextBox")
+local UIGradient_3 = Instance.new("UIGradient")
+local UICorner_5 = Instance.new("UICorner")
+
+--Properties:
+
+main.Name = "main"
+main.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+main.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = main
+Main.BackgroundColor3 = Color3.fromRGB(168, 0, 3)
+Main.Position = UDim2.new(0.736746967, 0, 0.19327426, 0)
+Main.Size = UDim2.new(0, 158, 0, 484)
+
+UICorner.Parent = Main
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(153, 160, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Rotation = 90
+UIGradient.Parent = Main
+
+Label1.Name = "Label1"
+Label1.Parent = Main
+Label1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label1.BackgroundTransparency = 1.000
+Label1.Position = UDim2.new(0.03164557, 0, 0.0206611566, 0)
+Label1.Size = UDim2.new(0, 147, 0, 20)
+Label1.Font = Enum.Font.RobotoCondensed
+Label1.Text = "Player Modifications"
+Label1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label1.TextScaled = true
+Label1.TextSize = 14.000
+Label1.TextWrapped = true
+
+Walkspeed.Name = "Walkspeed"
+Walkspeed.Parent = Main
+Walkspeed.BackgroundColor3 = Color3.fromRGB(165, 0, 3)
+Walkspeed.Position = UDim2.new(0.0443037935, 0, 0.0950413272, 0)
+Walkspeed.Size = UDim2.new(0, 144, 0, 24)
+Walkspeed.Font = Enum.Font.RobotoCondensed
+Walkspeed.PlaceholderText = "Walkspeed"
+Walkspeed.Text = ""
+Walkspeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Walkspeed.TextSize = 14.000
+
+UICorner_2.Parent = Walkspeed
+
+JumpPower.Name = "JumpPower"
+JumpPower.Parent = Main
+JumpPower.BackgroundColor3 = Color3.fromRGB(165, 0, 3)
+JumpPower.Position = UDim2.new(0.0443037935, 0, 0.177685946, 0)
+JumpPower.Size = UDim2.new(0, 144, 0, 24)
+JumpPower.Font = Enum.Font.RobotoCondensed
+JumpPower.PlaceholderText = "Jump Power"
+JumpPower.Text = ""
+JumpPower.TextColor3 = Color3.fromRGB(255, 255, 255)
+JumpPower.TextSize = 14.000
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(153, 160, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_2.Rotation = 90
+UIGradient_2.Parent = JumpPower
+
+UICorner_3.Parent = JumpPower
+
+Label2.Name = "Label2"
+Label2.Parent = Main
+Label2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Label2.BackgroundTransparency = 1.000
+Label2.Position = UDim2.new(0.03164557, 0, 0.266528934, 0)
+Label2.Size = UDim2.new(0, 147, 0, 20)
+Label2.Font = Enum.Font.RobotoCondensed
+Label2.Text = "Blatant Cheats"
+Label2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Label2.TextScaled = true
+Label2.TextSize = 14.000
+Label2.TextWrapped = true
+
+AB.Name = "AB"
+AB.Parent = Main
+AB.BackgroundColor3 = Color3.fromRGB(165, 0, 3)
+AB.Position = UDim2.new(0.037974596, 0, 0.34710744, 0)
+AB.Size = UDim2.new(0, 144, 0, 24)
+AB.Font = Enum.Font.RobotoCondensed
+AB.Text = "Aimbot Off"
+AB.TextColor3 = Color3.fromRGB(255, 255, 255)
+AB.TextSize = 14.000
+
+UICorner_4.Parent = AB
+
+credit.Name = "credit"
+credit.Parent = Main
+credit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credit.BackgroundTransparency = 1.000
+credit.Position = UDim2.new(0.03164557, 0, 0.94421494, 0)
+credit.Size = UDim2.new(0, 147, 0, 20)
+credit.Font = Enum.Font.RobotoCondensed
+credit.Text = "made by felikslol#1000"
+credit.TextColor3 = Color3.fromRGB(0, 0, 0)
+credit.TextScaled = true
+credit.TextSize = 14.000
+credit.TextWrapped = true
+
+ABHotkey.Name = "ABHotkey"
+ABHotkey.Parent = Main
+ABHotkey.BackgroundColor3 = Color3.fromRGB(165, 0, 3)
+ABHotkey.Position = UDim2.new(0.0443037935, 0, 0.894628048, 0)
+ABHotkey.Size = UDim2.new(0, 144, 0, 24)
+ABHotkey.Font = Enum.Font.RobotoCondensed
+ABHotkey.PlaceholderText = "Enter Hotkey"
+ABHotkey.Text = ""
+ABHotkey.TextColor3 = Color3.fromRGB(255, 255, 255)
+ABHotkey.TextSize = 14.000
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(153, 160, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_3.Rotation = 90
+UIGradient_3.Parent = ABHotkey
+
+UICorner_5.Parent = ABHotkey
+
+-- Scripts:
+
+local function JOQQW_fake_script() -- Walkspeed.UIScript 
+	local script = Instance.new('LocalScript', Walkspeed)
+
+	local player = game.Players.LocalPlayer
+	local walkspeedTextbox = script.Parent
+	
+	-- Function to set the player's walkspeed
+	local function setWalkspeed(walkspeed)
+		player.Character.Humanoid.WalkSpeed = tonumber(walkspeed) or 16 -- default value is 16
+	end
+	
+	-- Listen for changes to the text in the textbox
+	walkspeedTextbox.Changed:Connect(function(property)
+		if property == "Text" then
+			setWalkspeed(walkspeedTextbox.Text)
+		end
+	end)
+	
+	-- Set initial walkspeed based on the textbox's current text
+	setWalkspeed(walkspeedTextbox.Text)
+end
+coroutine.wrap(JOQQW_fake_script)()
+local function WOBU_fake_script() -- JumpPower.UIScript 
+	local script = Instance.new('LocalScript', JumpPower)
+
+	local player = game.Players.LocalPlayer
+	local jumpPowerTextbox = script.Parent
+	
+	-- Function to set the player's jump power
+	local function setJumpPower(jumpPower)
+		player.Character.Humanoid.JumpPower = tonumber(jumpPower) or 50 -- default value is 50
+	end
+	
+	-- Listen for changes to the text in the textbox
+	jumpPowerTextbox.Changed:Connect(function(property)
+		if property == "Text" then
+			setJumpPower(jumpPowerTextbox.Text)
+		end
+	end)
+	
+	-- Set initial jump power based on the textbox's current text
+	setJumpPower(jumpPowerTextbox.Text)
+end
+coroutine.wrap(WOBU_fake_script)()
+local function HSID_fake_script() -- AB.UIScript 
+	local script = Instance.new('LocalScript', AB)
+
+	local Aimbot = false
+	local camera = game:GetService("Workspace").CurrentCamera
+	local localplayer = game:GetService("Players").LocalPlayer
+	local lockedTarget = nil
+	
+	local settings = {
+		keybind = Enum.KeyCode.Q
+	}
+	
+	local aiming = false
+	game:GetService("UserInputService").InputBegan:Connect(function(inp)
+		if inp.KeyCode == settings.keybind then
+			if not aiming then
+				aiming = true
+				Aimbot = true
+				script.Parent.Text = "Aimbot On"
+				script.Parent.Locked.Value = true
+			else
+				aiming = false
+				Aimbot = false
+				script.Parent.Text = "Aimbot Off"
+				lockedTarget = nil
+				script.Parent.Locked.Value = false
+			end
+		end
+	end)
+	
+	function closestplayer()
+		local dist = math.huge
+		local target = nil
+		local mousepos = game:GetService("UserInputService"):GetMouseLocation()
+		for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+			if v ~= localplayer then
+				if v.Character and v.Character:FindFirstChild("Head") and Aimbot then
+					local humanoid = v.Character:FindFirstChildOfClass("Humanoid")
+					if humanoid and humanoid.Health > 0 then
+						local headpos, onscreen = camera:WorldToScreenPoint(v.Character.Head.Position)
+						if onscreen then
+							local magnitude = (Vector2.new(mousepos.X, mousepos.Y) - Vector2.new(headpos.X, headpos.Y)).Magnitude
+							if magnitude < dist then
+								dist = magnitude
+								target = v
+							end
+						end
+					end
+				end
+			end
+		end
+		return target
+	end
+	
+	game:GetService("RunService").RenderStepped:Connect(function()
+		if aiming and Aimbot then
+			if not lockedTarget then
+				lockedTarget = closestplayer()
+			end
+			if lockedTarget and lockedTarget.Character and lockedTarget.Character:FindFirstChild("Head") then
+				camera.CFrame = CFrame.new(camera.CFrame.Position, lockedTarget.Character.Head.Position)
+			else
+				lockedTarget = nil
+			end
+		end
+	end)
+	
+	-- Reset the locked target when the player dies and respawns
+	localplayer.CharacterAdded:Connect(function(character)
+		lockedTarget = nil
+	end)
+end
+coroutine.wrap(HSID_fake_script)()
+local function ZDDUKWL_fake_script() -- Main.DragScript 
+	local script = Instance.new('LocalScript', Main)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(ZDDUKWL_fake_script)()
+local function QYOK_fake_script() -- Main.UICode 
+	local script = Instance.new('LocalScript', Main)
+
+	--This is for the buttons themselves, not the scripts they run
+	
+	local AB = script.Parent.AB
+	local JP = script.Parent.JumpPower
+	local WS = script.Parent.Walkspeed
+	local ABLocked = AB.Locked
+	
+	AB.MouseEnter:Connect(function()
+		AB.Text = "Activated When You Lock Onto Somebody"
+	end)
+	
+	AB.MouseLeave:Connect(function()
+		if ABLocked.Value == true then
+			AB.Text = "Aimbot On"
+		else
+			AB.Text = "Aimbot Off"
+		end
+	end)
+	
+	JP.MouseEnter:Connect(function()
+		JP.PlaceholderText = "Enter Value"
+	end)
+	
+	JP.MouseLeave:Connect(function()
+		JP.PlaceholderText = "Jump Power"
+	end)
+	
+	WS.MouseEnter:Connect(function()
+		WS.PlaceholderText = "Enter Value"
+	end)
+	
+	WS.MouseLeave:Connect(function()
+		WS.PlaceholderText = "Walkspeed"
+	end)
+end
+coroutine.wrap(QYOK_fake_script)()
+local function FLCACA_fake_script() -- ABHotkey.UIScript 
+	local script = Instance.new('LocalScript', ABHotkey)
+
+	local player = game.Players.LocalPlayer
+	local jumpPowerTextbox = script.Parent
+	
+	-- Function to set the player's jump power
+	local function setJumpPower(jumpPower)
+		player.Character.Humanoid.JumpPower = tonumber(jumpPower) or 50 -- default value is 50
+	end
+	
+	-- Listen for changes to the text in the textbox
+	jumpPowerTextbox.Changed:Connect(function(property)
+		if property == "Text" then
+			setJumpPower(jumpPowerTextbox.Text)
+		end
+	end)
+	
+	-- Set initial jump power based on the textbox's current text
+	setJumpPower(jumpPowerTextbox.Text)
+end
+coroutine.wrap(FLCACA_fake_script)()
